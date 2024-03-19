@@ -1,0 +1,137 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#papa{
+    width: 90%;
+    height: 800px;
+    background: red;
+    margin: 20px auto;
+    display:grid;
+    grid-template-columns: repeat(4, auto) ;
+grid-template-rows: repeat(4, auto);
+grid-gap: 10px;
+}
+.hijo{
+    background: yellow;
+}
+#header{
+    background: darkorchid;
+    grid-column: 1/3;
+grid-row: 1/3;
+}
+#daddy{
+    width: 90%;
+    height: 800px;
+    background: gray;
+    margin: 20px auto;
+    display:grid;
+    grid-template-columns: repeat(5, auto) ;
+grid-template-rows: repeat(5, auto);
+grid-gap: 10px;
+}
+#a{
+    background: blue;
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+#ro{
+    background: pink;
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+#ama{
+    background: yellow;
+    grid-row: 2/4;
+    grid-column: 4/6;
+}
+#bl{
+    background: white;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+#sil{
+    background: silver;
+    grid-row: 4/6;
+    grid-column: 1/3;
+}
+#v{
+    background: green;
+    grid-row: 5/6;
+    grid-column: 3/5;
+}
+#n{
+    background: black;
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+#rj{
+    background: red;
+    grid-row: 4/6;
+    grid-column: 5/6;
+}
+
+#p{
+    width: 90%;
+    height: 800px;
+    background: gray;
+    margin: 20px auto;
+    display:grid;
+    grid-template-columns: repeat(5, auto) ;
+grid-template-rows: repeat(5, auto);
+grid-gap: 10px;   
+}
+#ac{
+    background: cadetblue;
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+#blu{
+    background: blue;
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+
+#s{
+    background: silver;
+    grid-row: 3/6;
+    grid-column: 1/2;
+}
+
+#yell{
+    background: yellow;
+    grid-row: 3/6;
+    grid-column: 2/3;
+}
+
+#b{
+    background: black;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+#red{
+    background: red;
+    grid-row: 1/4;
+    grid-column: 4/5;
+}
+
+#mora{
+    background: violet;
+    grid-row: 4/6;
+    grid-column: 3/6;
+}
+#pink{
+    background: pink;
+    grid-row: 5/6;
+    grid-column: 3/6;
+}
+
+
+#nara{
+    background: orangered;
+    grid-row: 1/4;
+    grid-column: 5/6;
+}
